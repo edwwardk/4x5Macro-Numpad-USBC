@@ -1,19 +1,22 @@
-## CH552G DIY Mechanical Keyboard Archives
-This archive stores all the required design files for DIY macropads / keyboard of all sizes and layouts. If you are not experience enough to build one or you just want to get a sample before making a few for yourself, you can also find pre-assembled samples on my [Tindie Store](https://www.tindie.com/stores/tobychui/). 
+## 4x5Macro-Numpad-USBC
+This fork of tobychui's 4x5Macro-Numpad modifies the original design to use usbc instead of microusb as well as using a through hole reinforced port for a stronger hold on the board. Additionally, it also moves the user led to the front of the board and adds a button for resetting the mcu. Pins are identical to the 4x5Macro-Numpad to allow for using the same firmwares.
 
-Gerber files of PCB files will be released with each of the new layout release without the schematics. The schematics will be released following the next layout / design to make sure I got enough funding to iterate more layout and open source them for free. Thank you for your understanding!
+### Bill of materials
+(LCSC manufacturer part numbers in brackets)
+- 1x CH552G (CH552G)
+- 1x USBC (GT-USB-7010ASV)
+- 20x switches for 4x5 layout, 17x switches for numpad layout
+- 2x 0.1u 0805 capacitors (0805B104J250CT)
+- 2x 0805 LEDs (17-215SURC/S530-A3/4T and BL-HJC35A-AV-TRB)
+- 8x 10k 0805 resistors (SCR0805F10K)
+- 2x 5.1k 0805 resistors (CR0805J80512G)
+- 2x smd momentary buttons (TS5216A 250gf 025)
 
-## 4xMacropad
+### Fabrication instructions
+- in the "4x5Macro-Numpad-USBC/fabrication" folder there is a zip file called fabrication.zip. these are the set of gerbers required to order from JLCPCB and should work as is.
 
-![](img/4xmacropad.png)
 
-An ultra low cost, 4 keys mechanical macropad using CH552G. See the ```/4xMacropad/ ```folder.
 
-## 4x5 Macro-numpad
-
-![](img/4x5numpad.png)
-
-Another ultra low cost macropad + numpad powered by CH552G with two layouts on the same PCB. See the ```/4x5Macro-Numpad/``` folder.
 
 ### Build Instruction
 
