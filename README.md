@@ -1,6 +1,11 @@
 ## 4x5Macro-Numpad-USBC
 This fork of tobychui's 4x5Macro-Numpad modifies the original design to use usbc instead of microusb as well as using a through hole reinforced port for a stronger hold on the board. Additionally, it also moves the user led to the front of the board and adds a button for resetting the mcu. Pins are identical to the 4x5Macro-Numpad to allow for using the same firmwares.
 
+## v1.0 Known Issues
+- resistor/capacitor/led designators/value missing from silkscreen in gerbers
+- switch indices missing from silkscreen in gerbers
+- size is larger than 100x100mm which causes upcharge (at least from jlcpcb)
+
 ### Bill of materials
 (LCSC manufacturer part numbers in brackets)
 - 1x CH552G (CH552G)
